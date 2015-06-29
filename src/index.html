@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>skyForce</title>
+        <link rel="stylesheet" type="text/css" href="../dist/publish/css/skyForce.min.css" />
+        <script type="text/javascript" src="../dist/publish/js/skyForce.min.js"></script>
+    </head>
+    <body>
+        <!-- 开发者信息 -->
+        <div class="auth-side">
+            <img class="avatar" src="img/author.jpg" alt="me" />
+            <div class="developer">
+                <span>开发者：</span>
+                <a href="http://github.com/shengbinx" target="_blank">shengbinx</a>
+            </div>
+            <hr>
+            <div class="stat">
+                <span>统计：</span><br>
+                <div class="lines">
+                    <span class="stat-item">JavaScript:</span>
+                    <span>473行</span><br>
+                    <span class="stat-item">CSS:</span>
+                    <span>148行</span><br>
+                    <span class="stat-item">HTML:</span>
+                    <span>60行</span><br>
+                    <span class="stat-item">PNG图片:</span>
+                    <span>15张</span><br>
+                </div>
+                <br>
+                <span>源代码：</span><br>
+                <a href="https://github.com/shengbinx/skyForce" target="_blank">github.com/shengbinx/skyForce</a><br>
+                <span>最后更新：2015.06.29</span>
+            </div>
+            <br>
+        </div>
+        <!-- 游戏主界面 -->
+        <div id="stageSide" class="stage-side">
+            <input id="startBtn" type="button" value="开始游戏" />
+        </div>
+        <!-- 暂停游戏蒙版 -->
+        <div id="pauseSide" class="pause-side">
+            <div class="mask-wrap"></div>
+            <div class="pause-content"></div>
+        </div>
+        <!-- 游戏得分节点 -->
+        <div class="score-side">
+            <div id="currentScore">0</div>
+        </div>
+        <!-- 游戏结束得分界面 -->
+        <div id="endSide">
+            <p class="end-label">飞机大战分数</p>
+            <p id="totalScore">0</p>
+            <div>
+                <input id="continueBtn" type="button" value="继续" />
+            </div>
+        </div>
+    </body>
+</html>
