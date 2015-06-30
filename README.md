@@ -2,13 +2,13 @@
 
 一个基于web编写的仿微信飞机大战游戏
 
-## Getting start
+## How to play?
 
-运行src目录下的index.html来运行
+鼠标操作
 
-## Documentation
+## Where to play?
 
-你可以在以下链接在线试玩:http://github.com/shengbinx/skyForce
+你可以点击以下链接在线试玩:http://shengbinx.github.io/skyForce/
 
 ## Lisence
 
